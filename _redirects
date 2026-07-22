@@ -1,0 +1,6 @@
+# تحويلات Cloudflare Pages (تُخدَم على الحافة كـHTTP 301 دائم — بلا JavaScript).
+# استوديو «دعوات التخرج» القديم (/graduation-invites) أُزيل نهائياً؛ نحوّل
+# أي زائر قديم لصفحة الدعوات المعتمدة بدل صفحة 404. لا نعيد إنشاء أي مسار،
+# ولا نضيفه لخريطة الموقع، ولا نجعله قابلاً للأرشفة.
+/graduation-invites    /invitations    301
+/graduation-invites/*  /invitations    301
